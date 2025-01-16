@@ -1,5 +1,5 @@
 # Gravity Forms Electorate Lookup
-A plugin creating a new custom field that allows users to look up their address to determine their Federal Electorate, State Electorate, or Local Government Area.
+A Wordpress plugin that creates a new custom field allowing users to look up their street address to determine their Federal Electorate, State Electorate, or Local Government Area.
 
 # How to use this plugin: 
 1. Set the API key in Gravity forms settings:
@@ -17,4 +17,4 @@ This custom field type includes settings for:
 1. User enters address, Google autocomplete addresses are suggested via Places api.
 2. User selects their formatted address, which is then geocoded via Geocoding API.
 3. Longitude & latitude coords are sent to appropriate ABS (Australian Bureau of Statistics) api end point (based on lookup type) to determine which electoral boundary this address falls within.
-4. Address is returned & set at the value of the lookup field. This value can then be used in live merge tags (eg. via Populate Anything plugin), for lookups (to return MP names or emails from your own data sets) or end screen results.
+4. Address is returned & set as the value of the lookup field. This value can then be used in live merge tags (eg. via Populate Anything plugin), for lookups (to return MP names or emails from your own data sets) or end screen results.

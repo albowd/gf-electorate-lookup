@@ -1,0 +1,60 @@
+.ginput_container_electorate_lookup {
+    position: relative;
+}
+
+.gfield_electorate_lookup {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.geocode-results {
+    margin-top: 10px;
+}
+
+.geocode-loading {
+    color: #666;
+    font-style: italic;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.geocode-success {
+    color: #28a745;
+}
+
+.geocode-error {
+    color: #d63638;
+    background: #fff2f2;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Google Places Autocomplete dropdown styling */
+.pac-container {
+    border-radius: 4px;
+    margin-top: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.pac-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pac-item:hover {
+    background-color: #f8f8f8;
+}
